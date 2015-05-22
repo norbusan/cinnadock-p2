@@ -1,0 +1,100 @@
+{
+ "head1" : {
+    "type" : "header",
+    "description" : "CinnaDock settings"
+ },
+ "size" : {
+    "type" : "spinbutton",
+    "default" : 36,
+    "min" : 20,
+    "max" : 96,
+    "step" : 1,
+    "units" : "pixels",
+    "description" : "Icon size",
+    "tooltip" : "Sets the size of dock icons."
+ },
+ "monitor" : {
+    "type" : "spinbutton",
+    "default" : -1,
+    "min" : -1,
+    "max" : 49,
+    "step" : 1,
+    "units" : "",
+    "description" : "Monitor",
+    "tooltip" : "Sets monitor to display dock in. The default value (-1) is the primary monitor."
+ },
+ "position" : {
+    "type" :  "combobox",
+    "default": 1,
+    "options" : {
+       "Left" : 0,
+       "Right" : 1,
+       "Top" : 2,
+       "Bottom" : 3
+     },
+    "description" : "Position of the dock",
+    "tooltip" : "Set the position of the dock in the screen."
+ },
+ "autohide" : {
+    "type" : "checkbox",
+    "default" : false,
+    "description" : "Enable autohide",
+    "tooltip" : "Autohide the dock."
+ },
+ "hide-effect" : {
+    "type" : "combobox",
+    "default" : 0,
+    "options" : {
+       "Resize" : 0,
+       "Rescale" : 1
+     },
+    "indent" : true,
+    "dependency" : "autohide",
+    "description" : "Autohide effect",
+    "tooltip" : "Sets the effect for hiding the dock."
+ },
+ "hide-effect-duration" : {
+    "type" : "spinbutton",
+    "default" : 300,
+    "min" : 0,
+    "max" : 1000,
+    "step" : 5,
+    "units" : "milliseconds",
+    "indent" : true,
+    "dependency" : "autohide",
+    "description" : "Autohide duration",
+    "tooltip" : "Sets the time duration of the autohide effect."
+ },
+"head2" : {
+    "type" : "header",
+    "description" : "Preview Options"
+ },
+ "enable-hover-peek" : {
+    "type" : "checkbox",
+    "default" : true,
+    "description" : "Show window previews",
+    "tooltip" : "When hovering over a window's title in the app menu, show a preview"
+ },
+ "hover-peek-opacity" : {
+    "type" : "spinbutton",
+    "default" : 5,
+    "min" : 0,
+    "max" : 10,
+    "step" : 1,
+    "units" : "percent",
+    "description" : "Opacity of windows in preview mode",
+    "indent" : true,
+    "dependency" : "enable-hover-peek"
+ },
+ "hover-peek-time" : {
+    "type" : "spinbutton",
+    "default" : 50,
+    "min" : 0,
+    "max" : 500,
+    "step" : 1,
+    "units" : "milliseconds",
+    "description" : "Fade in/out time for window previews",
+    "indent" : true,
+    "dependency" : "enable-hover-peek"
+ }
+}

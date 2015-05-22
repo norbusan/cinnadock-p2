@@ -1,0 +1,15 @@
+Copyright 2014 GPL
+
+Authors:
+Entelechy - CinnaDock Plus
+greg - CinnaDock
+physics - WindowListGroup
+koutch - windows-quick-list-with-close-button
+linuxmint - window-list, panel-launchers, alt-tab (1.6)
+Gnome - upstream dock (Gnome 3.6)
+
+This extension is based upon greg's CinnaDock extension, and additionally repurposes code from applets by physics and koutch, as well as some base Cinnamon code from applets and such.
+
+Original author:
+tclaesson@gmail.com
+http://git.gnome.org/gnome-shell-extensions
