@@ -1,7 +1,7 @@
 {
- "uuid": "CinnaDockPlus@entelechy",
- "name": "CinnaDock Plus",
- "description": "Revamped CinnaDock with previews and native configuration and theming, for Cinnamon 1.8+",
- "cinnamon-version": [ "1.8", "1.9", "2.0", "2.1", "2.2" ],
- "url": "http://cinnamon-spices.linuxmint.com/extensions"
+ "uuid": "CinnaDockP2@norbusan",
+ "name": "CinnaDock++",
+ "description": "Revamped^2 CinnaDock with previews and native configuration and theming, for Cinnamon 1.8+",
+ "cinnamon-version": [ "1.8", "1.9", "2.0", "2.1", "2.2", "2.4" ],
+ "url": "https://github.com/norbusan/cinnadock-p2"
 }

@@ -1,6 +1,7 @@
 Copyright 2014 GPL
 
 Authors:
+Norbert Preining - minimal adaption for 2.4
 Entelechy - CinnaDock Plus
 greg - CinnaDock
 physics - WindowListGroup

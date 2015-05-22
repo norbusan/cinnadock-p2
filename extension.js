@@ -24,7 +24,7 @@ function center(length, naturalLength) {
   return [x1, x2];
 }
 
-const UUID = "CinnaDockPlus@entelechy";
+const UUID = "CinnaDockP2@norbusan";
 
 // Settings
 const DOCK_APPS_KEY = 'favorite-apps';
